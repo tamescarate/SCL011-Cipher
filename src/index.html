@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+<head>
+<meta charset="utf-8">
+
+<title>ESCAPE ROOM</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+  <!--tipografías-->
+  <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <!--INICIO-->
+<div id="container">
+<center>
+
+    <h1 class="main-title">ESCAPE ROOM</h1>
+    <br><br>
+      <div id="login">
+      <p align="center">Ingresa tu nombre</p>
+      <br>
+      <input id="user" type="text" autocomplete="off" placeholder=" ... " required/>
+      <br>
+      <button id="next" >&raquo;</button>
     </div>
+    <div id="options">
+      <h2 id ='welcome-text' align="center"></h2>
+
+      <p align="center" id="escoge"></p>
+      <button id="peliculas">Peliculas</button>
+
+    </div>
+</div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

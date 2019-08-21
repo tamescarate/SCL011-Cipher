@@ -1,1 +1,63 @@
-/* Acá va tu código */
+body{
+    font-family: 'Creepster', cursive;
+    background-image: url(file:///home/laboratoria-d313/Documentos/CIPHER%20CAESAR%20-%20ESCAPE%20ROOM/1920x1080-px-blood-glass-hands-shadows-silhouette-1596353-wallhere.com.jpg);
+    background-position: center;
+    }
+    
+      container {
+    line-height:100pt;
+    display: block;
+    background-color: rgb(0,0,0);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    
+    h1.main-title{
+    line-height:100pt;
+    font-family: 'Creepster', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    text-shadow: 5px 5px 5px #aaa;
+    line-height: auto;
+    text-align: center;
+    
+    }
+    
+    h2{
+    line-height:50pt;
+    font-family: 'Nosifer', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: auto;
+    text-align: center;
+    margin: -3em;
+    }
+    
+    p{
+    line-height:-200pt;
+    font-family: 'Nosifer', cursive;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: auto;
+    text-align: center;
+    }
+    button#next{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    border: black;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 1px;
+    margin: 5em auto;
+    box-shadow:3px 3px 3px 0px;
+    }
+    
