@@ -1,3 +1,9 @@
+#ESCAPE ROOM
+ ¿Podrás escapar en 30 minutos?
+ Tú y tus amigos estarán en una habitación oscura, ambientada en un tema específico donde deberán explorar el entorno, encontrar pistas, e ir resolviendo los acertijos para poder avanzar. El objetivo de un escape room es encontrar la forma de escapar de la habitación antes de que se acabe el tiempo. Trabajar en equipo es clave; no podrán resolver física ni mentalmente los desafíos si no se ayudan entre sí, además deberan resolver de manera autónoma, ya que al final del tiempo establecido solo algunos podrán escapar de la habitación misteriosa.
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.

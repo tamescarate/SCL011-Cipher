@@ -1,30 +1,40 @@
 body{
-    font-family: 'Creepster', cursive;
-    background-image: url(file:///home/laboratoria-d313/Documentos/CIPHER%20CAESAR%20-%20ESCAPE%20ROOM/1920x1080-px-blood-glass-hands-shadows-silhouette-1596353-wallhere.com.jpg);
-    background-position: center;
-    }
+  background-color: black;
+  scroll-margin: none;
+ 
+}
     
-      container {
-    line-height:100pt;
-    display: block;
-    background-color: rgb(0,0,0);
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    #login {
+  
+      background-image: url(file:///home/laboratoria-d313/Descargas/man-hands-reflection-shadow-665451-wallhere.com.jpg);
+      background-repeat: no-repeat;
+      background-position: relative;
+      background-size: cover;
+      height: 72vh;
+      
+     
     }
-    
     h1.main-title{
-    line-height:100pt;
+  
     font-family: 'Creepster', cursive;
-    font-size: 60px;
-    font-weight: 400;
-    text-shadow: 5px 5px 5px #aaa;
-    line-height: auto;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px white;
+    height: 20px;
     text-align: center;
+    color: red;
+    margin: 10px;
+    scroll-margin: none;
     
+    }
+    h5 {
+      color: white;
+     
+       font-size: 18px;
+       position: center;
+     
+     
+     
+     
     }
     
     h2{
@@ -38,6 +48,7 @@ body{
     }
     
     p{
+  
     line-height:-200pt;
     font-family: 'Nosifer', cursive;
     color: black;
@@ -58,6 +69,118 @@ body{
     font-family: sans-serif;
     padding: 1px;
     margin: 5em auto;
-    box-shadow:3px 3px 3px 0px;
+    box-shadow:3px 3px 3px 0px red;
     }
-    
+    button#siguiente{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    border: black;
+    font-weight: 500;
+    font-family: sans-serif;
+ margin-left: 40px;
+    box-shadow:3px 3px 3px 0px;
+    margin-bottom: 50px;
+    background-position: left;
+
+
+      }
+#options {
+  background-image: url(file:///home/laboratoria-d313/Descargas/white-black-monochrome-window-dark-architecture-763896-wallhere.com.jpg );
+
+  background-position: center;
+  background-repeat: no-repeat;
+     
+  
+}
+    #user {
+      background-color: white;
+      background-position: center;
+      border-style:solid;
+      font-size: 17px;
+      border:2px;
+      
+      border-color:black;
+     border-style:solid;
+     box-shadow: 3px 3px 3px 0px black;
+  
+    }
+#welcome-text {
+
+  
+  color:white;
+ margin: center;
+  font-size: 16px;
+  margin-top:-20px;
+}
+h3 {
+
+  color: whitesmoke;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: -100px;
+
+}
+#shiftNumber {
+  background-color:gray;
+      background-position: center;
+      border-style:solid;
+      font-size: 20px;
+      border:2px;
+      box-shadow: 3px 3px 3px 0px white;
+      height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    text-align: center;
+  margin-top: 120px;
+}
+
+h6 {
+color: white;
+font-size: 19px;
+position: center;
+}
+
+#sourceText {
+
+  height: 45px;
+  width: 200px;
+  resize: none;
+}
+button#btncito {
+
+
+  height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    border: black;
+    font-weight: 400px;
+    font-family: sans-serif;
+    box-shadow:3px 3px 3px 0px red;
+   
+}
+#btnote {
+
+  border-radius: 50%;
+  background-color:black;
+  color: white;
+  font-size: 16px;
+  border: black;
+  font-weight: 400;
+  font-family: sans-serif;
+  box-shadow:3px 3px 3px 0px red;
+
+}
+#finalTxt {
+  height: 45px;
+  width: 200px;
+ margin-left: 100px;
+  position: relative;
+  resize: none;
+}

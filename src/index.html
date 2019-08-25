@@ -1,39 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
 
-<title>ESCAPE ROOM</title>
-<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+<head>
+  <meta charset="utf-8">
+
+  <title>ESCAPE ROOM</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen">
   <!--tipografías-->
   <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-   <!--INICIO-->
-<div id="container">
-<center>
+  
+    <center>
 
-    <h1 class="main-title">ESCAPE ROOM</h1>
-    <br><br>
+      <h1 class="main-title">ESCAPE ROOM</h1>
+      <br><br>
       <div id="login">
-      <p align="center">Ingresa tu nombre</p>
-      <br>
-      <input id="user" type="text" autocomplete="off" placeholder=" ... " required/>
-      <br>
-      <button id="next" >&raquo;</button>
-    </div>
-    <div id="options">
-      <h2 id ='welcome-text' align="center"></h2>
 
-      <p align="center" id="escoge"></p>
-      <button id="peliculas">Peliculas</button>
+        <p align="center">Ingresa tu nombre</p>
+        <br>
+        <input id="user" type="text" autocomplete="off" placeholder=" ....." required />
+        <br>
+        <button id="next">&raquo;</button>
+      </div>
+      <div id="options">
+        <h2 id='welcome-text' align="center"></h2>
+        
 
-    </div>
-</div>
+       
+            <h3 class="instr"> Ingresa tu número de la Suerte</h3>
+            <!-- Botón para adicionar el número de shifts -->
+              
+            <input class="shift" type="number" min="0" pattern="^[0-9]+" id="shiftNumber">
+            <h6 class="instrucc"> Ingrese una palabra <br> de 4 a 8 dígitos</h6>
+            <!-- Área de introducción del texto -->
+            <div class="row justify-content-center">
+              <div class="col 5">
+                <textarea class="first" id="sourceText" placeholder="Escriba texto a cifrar o decifrar."></textarea>
 
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+              </div>
+            </div>
+
+            <!-- Botones de cifrar y descifrar -->
+            <div class="row justify-content-center">
+              <div class="text-center">
+                <button type="button" class="btn" id="btncito">Cifrar</button>
+              </div>
+              <div class="text-center">
+                <button type="button" class="btn" id="btnote">Descifrar</button>
+              </div>
+            </div>
+            <h5 class="instrucc">Mensaje Traducido</h5>
+            <!-- Aquí entra el texto traducido -->
+            <div class="row justify-content-center">
+              <div class="col 5"></div>
+                <textarea class="last" id="finalTxt" disabled></textarea>
+                <button id="siguiente">Siguiente</button>
+              </div>
+            </div>
+          
+       
+
+      <script src="cipher.js"></script>
+      <script src="index.js"></script>
+
+</body>
+
 </html>
